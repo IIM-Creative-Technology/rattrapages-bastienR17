@@ -1,8 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: [
+    './dist/*.{html, js}',
+  ],
   theme: {
-    extend: {},
+    colors: {
+      'Primary': '#B2D234',
+      'White': '#FFFFFF',
+    },
+
+    fontFamily: {
+      'poppins': ['Poppins', 'sans-serif'],
+    },
+
+    extend: {
+      backgroundImage : {
+        'fond' : "url('/src/images/pattern2.jpg')",
+      }
+    },
   },
   plugins: [],
 }
