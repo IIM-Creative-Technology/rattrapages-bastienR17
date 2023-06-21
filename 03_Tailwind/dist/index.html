@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="output.css">
+</head>
+<body class="overflow-x-hidden">
+  <nav class="absolute top-0 left-0 z-50 flex flex-row justify-between px-[4%] pt-[2%] font-poppins items-center">
+    <div class="w-[15%]">
+      <img src="../src/images/logo.png" alt="logo">
+    </div>
+    <div class="w-[55%] flex">
+      <ul class="text-White text-[18px] flex flex-row w-full justify-between font-light items-center">
+        <li class="flex flex-col items-center">Accueil <span class=" w-[2vw] h-[2px] bg-white"></span></li>
+        <li class="flex flex-col">Qui sommes-nous ?</li>
+        <li class="flex flex-col">Menu</li>
+        <li class="flex flex-col">Contact</li>
+        <li class="flex flex-col font-semibold text-Primary bg-White py-2 px-8 rounded-md shadow-sm"><a href="#">Commander</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header class="w-screen h-screen flex items-center justify-center relative">
+    <div class="flex items-center justify-center bg-cover bg-no-repeat bg-center h-screen w-screen absolute bg-[linear-gradient(to_right_bottom,rgba(96,160,216,0.62),rgba(178,210,52,0.62)),url('../src/images/fond.png')]">
+      <div class="flex flex-col relative w-1/2">
+        <h1 class="text-[126px] text-White font-medium">mongoo</h1>
+        <p class="text-[54px] text-White italic rotate-[-9deg] right-0 ml-[10%] -mt-10 ">c'est frais pour vous&nbsp;!</p>
+      </div>
+      <div class="flex flex-row absolute bottom-[2%] right-[4%] gap-5">
+        <img class="w-8" src="../src/images/facebook.svg" alt="icone">
+        <img class="w-8" src="../src/images/twitter.svg" alt="icone">
+        <img class="w-8" src="../src/images/insta.svg" alt="icone">
+      </div>
+    </div>
+  </header>
+  <section class="w-screen h-screen overflow-hidden flex items-center relative bg-repeat bg-[url('../src/images/pattern2.png')]">
+    <div class="flex flex-col w-fit gap-8 pl-[12%]">
+      <h2 class="text-Primary text-[52px] font-semibold tracking-wider leading-[66px]">Une salade sur mesure</h2>
+      <div class="flex flex-col gap-5 w-1/2">
+        <p class="text-Text text-lg leading-6">MONGOO vous permet de composer votre salade selon vos envies et vos goûts.</p>
+        <p class="text-Text text-lg leading-6">Une quarantaine d’ingrédients frais et préparés le matin même sur place vous sont proposés au quotidien.</p>
+        <p class="text-Text text-lg leading-6">Depuis maintenant 10ans, MONGOO fait le bonheur des gourmets et des gourmands, alors pourquoi pas vous ?</p>
+      </div>
+      <button class="rounded-md bg-Primary text-White py-4 px-20 font-semibold text-2xl w-fit shadow-sm"><a href="#">En savoir +</a></button>
+    </div>
+    <div class="w-1/2 h-screen bg-cover -bottom-[10%] absolute right-0 bg-no-repeat bg-left bg-[url('../src/images/salade.png')] ">
+    </div>
+  </section>
+
+
+<section class="w-screen h-screen flex items-center relative bg-center pr-[10%] bg-cover justify-end bg-no-repeat bg-[url('../src/images/salade-n.png')]">
+
+<div class="bg-Primary bg-opacity-[85%] w-1/2 text-center text-white flex-col flex gap-10 items-center py-12 px-20 ">
+  <h2 class="text-[52px] font-semibold tracking-wider leading-[66px]">Préparé sur place et avec amour</h2>
+  <div>
+    <p class="text-white text-lg leading-6">Chez MONGOO tous les ingrédients et tous les desserts sont préparés sur place.</p>
+    <p class="text-white text-lg leading-6">Nous mettons un point d’honneur à ce que tous les matins, nos équipes de super-préparateurs découpent, tranchent, épluchent, assaisonnent, mélangent, émincent, saupoudrent et préparent tout ce qu’il y a sur le bar afin de vous proposer les meilleures combinaisons de salades possible.</p>
+    <p class="text-white text-lg leading-6">Alors faites votre choix !</p>
+  </div>
+  <button class="rounded-md bg-White text-Primary py-4 px-20 font-semibold text-2xl w-fit shadow-sm"><a href="#">En savoir +</a></button>
+
+</div>
+
+
+
+
+
+</section>
+
+
+
+</body>
+</html>

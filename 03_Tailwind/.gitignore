@@ -15,7 +15,7 @@
 
 # Dossiers de build / output
 /build/
-/dist/
+
 /out/
 /coverage/
 
