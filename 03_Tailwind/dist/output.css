@@ -650,8 +650,16 @@ video {
   margin-left: 10%;
 }
 
+.ml-\[15\%\] {
+  margin-left: 15%;
+}
+
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-\[2px\] {
@@ -673,6 +681,10 @@ video {
 
 .h-\[70vh\] {
   height: 70vh;
+}
+
+.h-\[5vh\] {
+  height: 5vh;
 }
 
 .w-1\/2 {
@@ -734,6 +746,22 @@ video {
 
 .w-8\/12 {
   width: 66.666667%;
+}
+
+.w-\[5vh\] {
+  width: 5vh;
+}
+
+.w-\[9vw\] {
+  width: 9vw;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
 }
 
 .rotate-\[-9deg\] {
@@ -1019,6 +1047,16 @@ video {
   padding-bottom: 10%;
 }
 
+.px-\[8\%\] {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pl-\[12\%\] {
   padding-left: 12%;
 }
@@ -1082,6 +1120,24 @@ video {
   font-size: 27px;
 }
 
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[80px\] {
+  font-size: 80px;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-light {
   font-weight: 300;
 }
@@ -1143,8 +1199,104 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media (min-width: 1024px) {
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .lg\:-mt-10 {
+    margin-top: -2.5rem;
+  }
+
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:h-screen {
+    height: 100vh;
+  }
+
+  .lg\:w-\[15\%\] {
+    width: 15%;
+  }
+
+  .lg\:w-5\/12 {
+    width: 41.666667%;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/src\/images\/salade\.png\'\)\] {
+    background-image: url('../src/images/salade.png');
+  }
+
+  .lg\:p-0 {
+    padding: 0px;
+  }
+
+  .lg\:px-\[4\%\] {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .lg\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .lg\:pr-\[10\%\] {
+    padding-right: 10%;
+  }
+
+  .lg\:text-\[126px\] {
+    font-size: 126px;
+  }
+
+  .lg\:text-\[54px\] {
+    font-size: 54px;
+  }
+
+  .lg\:text-\[52px\] {
+    font-size: 52px;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:leading-\[66px\] {
+    line-height: 66px;
+  }
 };

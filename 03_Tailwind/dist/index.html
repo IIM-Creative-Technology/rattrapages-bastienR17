@@ -8,11 +8,17 @@
   <link rel="stylesheet" href="output.css">
 </head>
 <body class="overflow-x-hidden">
-  <nav class="absolute top-0 left-0 z-50 flex flex-row justify-between px-[4%] pt-[2%] font-poppins items-center">
-    <div class="w-[15%]">
-      <img src="../src/images/logo.png" alt="logo">
+  <nav class="absolute top-0 left-0 z-50 flex w-full flex-row justify-between lg:px-[4%] px-[8%] pt-[2%] font-poppins items-center">
+    <div class="lg:w-[15%] w-1/2 flex">
+      <img class="lg:hidden flex" src="../src/images/Subtract.svg" alt="logo">
+      <img class="lg:flex hidden" src="../src/images/logo.png" alt="logo">
     </div>
-    <div class="w-[55%] flex">
+    <div class="w-[5vh] h-[5vh] lg:hiden flex flex-col justify-around">
+      <span class="w-[9vw] h-[2px] flex rounded-md bg-white"> </span>
+        <span class="w-[9vw] h-[2px] flex rounded-md bg-white"></span>
+      <span class="w-[9vw] h-[2px] flex rounded-md bg-white"></span>
+    </div>
+    <div class="lg:flex hidden w-[55%]">
       <ul class="text-White text-[18px] flex flex-row w-full justify-between font-light items-center">
         <li class="flex flex-col items-center">Accueil <span class=" w-[2vw] h-[2px] bg-white"></span></li>
         <li class="flex flex-col">Qui sommes-nous ?</li>
@@ -24,40 +30,40 @@
   </nav>
   <header class="w-screen h-screen flex items-center justify-center relative">
     <div class="flex items-center justify-center bg-cover bg-no-repeat bg-center h-screen w-screen absolute bg-[linear-gradient(to_right_bottom,rgba(96,160,216,0.62),rgba(178,210,52,0.62)),url('../src/images/fond.png')]">
-      <div class="flex flex-col relative w-1/2">
-        <h1 class="text-[126px] text-White font-medium">mongoo</h1>
-        <p class="text-[54px] text-White italic rotate-[-9deg] right-0 ml-[10%] -mt-10 ">c'est frais pour vous&nbsp;!</p>
+      <div class="flex flex-col relative lg:w-5/12 w-full">
+        <h1 class="lg:text-[126px] text-[80px] lg:ml-0 ml-[15%] text-White font-medium">mongoo</h1>
+        <p class="lg:text-[54px] text-[40px] text-White italic rotate-[-9deg] right-0 ml-[10%] lg:-mt-10 ">c'est frais pour vous&nbsp;!</p>
       </div>
-      <div class="flex flex-row absolute bottom-[2%] right-[4%] gap-5">
+      <div class="lg:flex hidden flex-row absolute bottom-[2%] right-[4%] gap-5">
         <img class="w-8" src="../src/images/facebook.svg" alt="icone">
         <img class="w-8" src="../src/images/twitter.svg" alt="icone">
         <img class="w-8" src="../src/images/insta.svg" alt="icone">
       </div>
     </div>
   </header>
-  <section class="w-screen h-screen overflow-hidden flex items-center relative bg-repeat bg-[url('../src/images/pattern2.png')]">
+  <section class="w-screen lg:h-screen lg:p-0 py-[10%] h-fit overflow-hidden flex items-center relative bg-repeat bg-[url('../src/images/pattern2.png')]">
     <div class="flex flex-col w-fit gap-8 pl-[12%]">
-      <h2 class="text-Primary text-[52px] font-semibold tracking-wider leading-[66px]">Une salade sur mesure</h2>
-      <div class="flex flex-col gap-5 w-1/2">
-        <p class="text-Text text-lg leading-6">MONGOO vous permet de composer votre salade selon vos envies et vos goûts.</p>
-        <p class="text-Text text-lg leading-6">Une quarantaine d’ingrédients frais et préparés le matin même sur place vous sont proposés au quotidien.</p>
-        <p class="text-Text text-lg leading-6">Depuis maintenant 10ans, MONGOO fait le bonheur des gourmets et des gourmands, alors pourquoi pas vous ?</p>
+      <h2 class="text-Primary lg:text-[52px] text-3xl font-semibold tracking-wider lg:leading-[66px]">Une salade sur mesure</h2>
+      <div class="flex flex-col gap-5 lg:w-1/2 w-11/12">
+        <p class="text-Text lg:text-lg text-base leading-6">MONGOO vous permet de composer votre salade selon vos envies et vos goûts.</p>
+        <p class="text-Text lg:text-lg text-base leading-6">Une quarantaine d’ingrédients frais et préparés le matin même sur place vous sont proposés au quotidien.</p>
+        <p class="text-Text lg:text-lg text-base leading-6">Depuis maintenant 10ans, MONGOO fait le bonheur des gourmets et des gourmands, alors pourquoi pas vous ?</p>
       </div>
-      <button class="rounded-md bg-Primary text-White py-4 px-20 font-semibold text-2xl w-fit shadow-sm"><a href="#">En savoir +</a></button>
+      <button class="rounded-md bg-Primary text-White py-4 px-20 font-semibold lg:text-2xl text-lg w-fit shadow-sm"><a href="#">En savoir +</a></button>
     </div>
-    <div class="w-1/2 h-screen bg-cover -bottom-[10%] absolute right-0 bg-no-repeat bg-left bg-[url('../src/images/salade.png')] ">
+    <div class="w-1/2 h-screen bg-cover -bottom-[10%] absolute right-0 bg-no-repeat bg-left lg:bg-[url('../src/images/salade.png')] ">
     </div>
   </section>
-<section class="w-screen h-screen flex items-center relative bg-center pr-[10%] bg-cover justify-end bg-no-repeat bg-[url('../src/images/salade-n.png')]">
+<section class="w-screen lg:h-screen h-fit flex items-center  py-[10%]  relative bg-center lg:pr-[10%] bg-cover justify-end bg-no-repeat bg-[url('../src/images/salade-n.png')]">
 
-<div class="bg-Primary bg-opacity-[85%] w-1/2 text-center text-white flex-col flex gap-10 items-center py-12 px-20 ">
-  <h2 class="text-[52px] font-semibold tracking-wider leading-[66px]">Préparé sur place et avec amour</h2>
-  <div>
-    <p class="text-white text-lg leading-6">Chez MONGOO tous les ingrédients et tous les desserts sont préparés sur place.</p>
-    <p class="text-white text-lg leading-6">Nous mettons un point d’honneur à ce que tous les matins, nos équipes de super-préparateurs découpent, tranchent, épluchent, assaisonnent, mélangent, émincent, saupoudrent et préparent tout ce qu’il y a sur le bar afin de vous proposer les meilleures combinaisons de salades possible.</p>
-    <p class="text-white text-lg leading-6">Alors faites votre choix !</p>
+<div class="bg-Primary  bg-opacity-[85%] lg:w-1/2 w-10/12 mx-auto lg:mx-0 text-center text-white flex-col flex gap-10 items-center lg:py-12 py-6 lg:px-20 ">
+  <h2 class="lg:text-[52px] text-3xl font-semibold tracking-wider lg:leading-[66px]">Préparé sur place et avec amour</h2>
+  <div class="flex flex-col gap-5">
+    <p class="text-white lg:text-lg text-base leading-6">Chez MONGOO <span class="underline"> les ingrédients </span> et <span class="underline"> tous les desserts </span> sont préparés sur place.</p>
+    <p class="text-white lg:text-lg text-base leading-6">Nous mettons un point d’honneur à ce que tous les matins, nos équipes de super-préparateurs <span class="font-semibold"> découpent, tranchent, épluchent, assaisonnent, mélangent, émincent, saupoudrent </span> et préparent tout ce qu’il y a sur le bar afin de vous proposer les meilleures combinaisons de salades possible.</p>
+    <p class="text-white lg:text-lg text-base leading-6">Alors faites votre choix !</p>
   </div>
-  <button class="rounded-md bg-White text-Primary py-4 px-20 font-semibold text-2xl w-fit shadow-sm"><a href="#">En savoir +</a></button>
+  <button class="rounded-md bg-White text-Primary py-4 px-20 font-semibold lg:text-2xl text-lg w-fit shadow-sm"><a href="#">En savoir +</a></button>
 
 </div>
 
@@ -69,10 +75,10 @@
 <section class="w-screen h-fit flex flex-col items-center relative bg-no-repeat bg-cover bg-center justify-center gap-24 px-[10%] py-[8%] bg-[url('../src/images/pattern.png')]">
 
   <div class="text-center text-Text gap-8 flex flex-col items-center w-[60%] mx-auto">
-    <h2 class="text-[52px] text-Primary font-semibold tracking-wider leading-[66px]">Vous avez dit menu ?</h2>
-    <p class="text-lg leading-6">Un menu MONGOO, c’est une salade accompagnée d’une boisson et d’un dessert.
+    <h2 class="lg:text-[52px] text-3xl text-Primary font-semibold tracking-wider leading-[66px]">Vous avez dit menu ?</h2>
+    <p class="lg:text-lg text-base leading-6">Un menu MONGOO, c’est une salade accompagnée d’une boisson et d’un dessert.
       Mais&nbsp;attention, pas n’importe quelle boisson et n’importe quel dessert...</p>
-    <p class="text-lg leading-6">Découvrez notre large sélection de boissons et desserts pour accompagner votre repas</p>
+    <p class="lg:text-lg text-base leading-6">Découvrez notre large sélection de boissons et desserts pour accompagner votre repas</p>
   </div>
 <div class="flex flex-row gap-12 items-center w-full ">
   <div class="flex flex-col gap-10 w-1/2" >
@@ -83,8 +89,8 @@
       </div>
 
       <div>
-        <p class="text-lg text-Text leading-6">1 base - 4 ingrédients verts - Sauce </p>
-        <p class="text-lg text-Text leading-6">Petit plus et pain offert</p>
+        <p class="lg:text-lg text-base text-Text leading-6">1 base - 4 ingrédients verts - Sauce </p>
+        <p class="lg:text-lg text-base text-Text leading-6">Petit plus et pain offert</p>
       </div>
 
     </div>
@@ -95,8 +101,8 @@
       </div>
 
       <div>
-        <p class="text-lg text-Text leading-6">1 base - 3 ingrédients verts & 1 bleu - Sauce </p>
-        <p class="text-lg text-Text leading-6">Petit plus et pain offert </p>
+        <p class="lg:text-lg text-base text-Text leading-6">1 base - 3 ingrédients verts & 1 bleu - Sauce </p>
+        <p class="lg:text-lg text-base text-Text leading-6">Petit plus et pain offert </p>
       </div>
 
     </div>
@@ -110,8 +116,8 @@
       </div>
 
       <div>
-        <p class="text-lg text-Text leading-6">1 base - 2 ingrédients verts & 2 bleus - Sauce  </p>
-        <p class="text-lg text-Text leading-6">Petit plus et pain offert</p>
+        <p class="lg:text-lg text-base text-Text leading-6">1 base - 2 ingrédients verts & 2 bleus - Sauce  </p>
+        <p class="lg:text-lg text-base text-Text leading-6">Petit plus et pain offert</p>
       </div>
 
     </div>
@@ -122,8 +128,8 @@
       </div>
 
       <div>
-        <p class="text-lg text-Text leading-6">1 base - 1 ingrédients vert & 3 bleus - Sauce  </p>
-        <p class="text-lg text-Text leading-6">Petit plus et pain offert</p>
+        <p class="lg:text-lg text-base text-Text leading-6">1 base - 1 ingrédients vert & 3 bleus - Sauce  </p>
+        <p class="lg:text-lg text-base text-Text leading-6">Petit plus et pain offert</p>
       </div>
 
     </div>
@@ -134,8 +140,8 @@
       </div>
 
       <div>
-        <p class="text-lg text-Text leading-6">1 base - 4 ingrédients bleus - Sauce  </p>
-        <p class="text-lg text-Text leading-6">Petit plus et pain offert</p>
+        <p class="lg:text-lg text-base text-Text leading-6">1 base - 4 ingrédients bleus - Sauce  </p>
+        <p class="lg:text-lg text-base text-Text leading-6">Petit plus et pain offert</p>
       </div>
 
     </div>
@@ -146,9 +152,9 @@
     <p class="text-[64px] text-Primary italic rotate-[-9deg] leading-[85px]">Force verte ?</p>
       <p class="text-[64px] text-Secondary italic rotate-[-9deg] leading-[85px]">Force bleue ?</p>
     </div>
-    <p class="text-lg leading-6 text-Text text-center w-9/12">Ne perdez pas une seconde, faites votre choix et venez
+    <p class="lg:text-lg text-base leading-6 text-Text text-center w-9/12">Ne perdez pas une seconde, faites votre choix et venez
       chercher votre salade dans 20min !</p>
-    <button class="rounded-md bg-Primary text-white py-4 px-20 font-semibold text-2xl w-fit shadow-sm">
+    <button class="rounded-md bg-Primary text-white py-4 px-20 font-semibold lg:text-2xl text-lg w-fit shadow-sm">
       <a href="#">Passer commande</a></button>
   </div>
 
@@ -160,7 +166,7 @@
   </section>
   <section class="w-screen h-screen flex flex-row gap-5 items-center relative bg-no-repeat bg-cover bg-center bg-[url('../src/images/oui.jpg')] px-[4%] py-[8%]">
     <div class="text-center bg-Primary bg-opacity-[85%] h-[50vh] text-white gap-8 flex flex-col items-center w-1/2 mx-auto px-[10%] py-[3%] pb-[6%]">
-      <h2 class="text-[52px] font-semibold tracking-wider leading-[66px]">Chez les verts</h2>
+      <h2 class="lg:text-[52px] text-3xl font-semibold tracking-wider leading-[66px]">Chez les verts</h2>
       <div class="flex flex-row justify-between w-2/3">
         <ul>
           <li>Croûtons</li>
@@ -186,7 +192,7 @@
       </div>
     </div>
     <div class="text-center bg-Secondary bg-opacity-[85%] h-[50vh] text-white gap-8 flex flex-col items-center w-1/2 mx-auto px-[10%] py-[3%] pb-[6%]">
-      <h2 class="text-[52px] font-semibold tracking-wider leading-[66px]">Chez les bleus</h2>
+      <h2 class="lg:text-[52px] text-3xl font-semibold tracking-wider leading-[66px]">Chez les bleus</h2>
       <div class="flex flex-row justify-between w-2/3">
         <ul>
           <li>Aubergines</li>
@@ -219,10 +225,10 @@
   <div class="flex flex-col gap-8 w-7/12 pl-[12%]">
 
     <div class="flex flex-col gap-8 items-center">
-      <h2 class="text-[52px] text-Primary font-semibold tracking-wider leading-[66px]">Envie de partager ?</h2>
+      <h2 class="lg:text-[52px] text-3xl text-Primary font-semibold tracking-wider leading-[66px]">Envie de partager ?</h2>
       <div class="flex flex-col">
-        <p class="text-Text text-lg leading-6 text-center mx-auto w-8/12">Toute l’année, on recrute des employés motivés pour tous nos restaurants !</p>
-        <p class="text-Text text-lg leading-6 text-center">N’hésitez pas à postuler !</p>
+        <p class="text-Text lg:text-lg text-base leading-6 text-center mx-auto w-8/12">Toute l’année, on recrute des employés motivés pour tous nos restaurants !</p>
+        <p class="text-Text lg:text-lg text-base leading-6 text-center">N’hésitez pas à postuler !</p>
       </div>
     </div>
 
@@ -230,25 +236,25 @@
 
       <div class="flex-row flex justify-between gap-4">
         <div class="flex flex-col gap-3 w-full">
-          <label class="text-2xl italic leading-[9px] tracking-wider text-Primary" for="name">Nom</label>
+          <label class="lg:text-2xl text-lg italic leading-[9px] tracking-wider text-Primary" for="name">Nom</label>
           <input type="text" name="name" id="name" class="border-solid border-[1px] border-[#4E4E4E] border-opacity-30 p-2">
 
       </div>
         <div class="flex flex-col gap-3 w-full ">
-            <label class="text-2xl italic leading-[9px] tracking-wider text-Primary" for="prenom">Prénom</label>
+            <label class="lg:text-2xl text-lg italic leading-[9px] tracking-wider text-Primary" for="prenom">Prénom</label>
             <input type="text" name="name" id="prenom" class="border-solid border-[1px] border-[#4E4E4E] border-opacity-30 p-2">
       </div>
 
         </div>
         <div class="flex flex-col gap-3 ">
-            <label class="text-2xl italic leading-[9px] tracking-wider text-Primary" for="email">Email</label>
+            <label class="lg:text-2xl text-lg italic leading-[9px] tracking-wider text-Primary" for="email">Email</label>
             <input type="email" name="email" id="email" class="border-solid border-[1px] border-[#4E4E4E] border-opacity-30 p-2">
         </div>
       <div class="flex flex-col gap-3 ">
-        <label class="text-2xl italic leading-[9px] tracking-wider text-Primary" for="message">Votre motivation en quelques mots</label>
+        <label class="lg:text-2xl text-lg italic leading-[9px] tracking-wider text-Primary" for="message">Votre motivation en quelques mots</label>
        <textarea name="message" id="message" cols="30" rows="5" class="border-solid border-[1px] border-[#4E4E4E] border-opacity-30 p-2"></textarea>
       </div>
-        <input type="submit" value="postuler" class="rounded-md bg-Primary text-white py-4 px-20 mx-auto font-semibold text-2xl w-fit shadow-sm">
+        <input type="submit" value="postuler" class="rounded-md bg-Primary text-white py-4 px-20 mx-auto font-semibold lg:text-2xl text-lg w-fit shadow-sm">
 
     </form>
 
@@ -265,7 +271,7 @@
     <img class="w-1/2" src="../src/images/logo.png" alt="">
     <div class="flex flex-col gap-5 text-center text-white">
       <h3 class="text-[27px] font-semibold ">Commander</h3>
-        <div class="flex flex-col gap-2 text-lg">
+        <div class="flex flex-col gap-2 lg:text-lg text-base">
           <p>Passer commande</p>
           <p>Nos menus</p>
           <p>Restaurants</p>
@@ -275,7 +281,7 @@
   <div class="flex flex-row gap-4 w-5/12 justify-around items-start">
     <div class="flex flex-col gap-5 text-center text-white">
       <h3 class="text-[27px] font-semibold ">Informations</h3>
-      <div class="flex flex-col gap-2 text-lg">
+      <div class="flex flex-col gap-2 lg:text-lg text-base">
         <p>F.A.Q</p>
         <p>Mentions légales</p>
         <p>Recrutement</p>
@@ -284,7 +290,7 @@
 
     <div class="flex flex-col gap-5 text-center text-white">
       <h3 class="text-[27px] font-semibold ">Nous retrouver</h3>
-      <div class="flex flex-col gap-2 text-lg">
+      <div class="flex flex-col gap-2 lg:text-lg text-base">
         <p>Facebook</p>
         <p>Twitter</p>
         <p>Instagram</p>
